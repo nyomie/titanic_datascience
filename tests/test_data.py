@@ -67,5 +67,5 @@ def test_extract_title():
                    'the Countess': 'Royalty'}}
     )
     expected['Title'] = expected['Title'].astype('category')
-
-    assert_frame_equal(result, expected)
+  
+  assert_frame_equal(result, expected)
