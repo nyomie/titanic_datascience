@@ -35,7 +35,7 @@ setup(
     tests_require=['pytest'],
     entry_points='''
         [console_scripts]
-        titanic_analysis=titanic.command_line:titanic_analysis
+        titanic_analysis=command_line:titanic_analysis
         '''
 )
    
